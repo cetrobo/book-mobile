@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+
+/* style for page home */
+
+p.auteur-name {
+    font-size: 19px;
+    color: black;
+    font-family: Arial;
+}
+p.auteur-citation {
+    font-style: italic;
+}

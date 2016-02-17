@@ -1,0 +1,13 @@
+<ion-view view-title="Home">
+  <ion-content>
+    <ion-list>
+    <ion-nav-back-button> </ion-nav-back-button>
+		<ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat=" auteur in auteurs" type="item-text-wrap" href="#/tab/dash/{{auteur.id}}">
+      <img  class="auteur-img" ng-src="{{auteur.face}}"/>
+      <p class="auteur-name">{{auteur.name}}</p>
+	    <p class="auteur-citation">{{auteur.citation}}</p>
+      
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
